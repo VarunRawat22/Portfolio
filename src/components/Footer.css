@@ -1,0 +1,84 @@
+.footer {
+  position: relative;
+  background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
+  color: #e2e8f0;
+  padding: 2.5rem 1.5rem;
+  margin-top: 4rem;
+}
+
+.footer__accent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #2563eb 0%, #3b82f6 50%, #60a5fa 100%);
+}
+
+.footer__inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .footer__inner {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+}
+
+.footer__copy-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.footer__copy {
+  font-size: 0.95rem;
+  color: #cbd5e1;
+}
+
+.footer__copy strong {
+  color: #f8fafc;
+  font-weight: 600;
+}
+
+.footer__tech {
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+.footer__links {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer__links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  color: #94a3b8;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  transition: color 0.2s, background 0.2s, transform 0.2s;
+}
+
+.footer__links a:hover {
+  color: #fff;
+  background: rgba(37, 99, 235, 0.3);
+  transform: translateY(-2px);
+}
+
+.footer__links a:focus-visible {
+  outline: 2px solid #60a5fa;
+  outline-offset: 2px;
+}

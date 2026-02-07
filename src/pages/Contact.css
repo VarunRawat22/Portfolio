@@ -1,0 +1,41 @@
+.contact {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.contact__title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: #1a1a1a;
+}
+
+.contact__intro {
+  color: #444;
+  max-width: 480px;
+  margin: 0 auto 1.5rem;
+  line-height: 1.7;
+}
+
+.contact__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.contact__link {
+  font-weight: 600;
+  color: #2563eb;
+  transition: color 0.2s, text-decoration 0.2s;
+}
+
+.contact__link:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+.contact__cta {
+  margin-top: 0.5rem;
+}
